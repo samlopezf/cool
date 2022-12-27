@@ -7,8 +7,8 @@ module.exports = defineConfig({
   },
   rewrites: async () => [
   {
-    source: "/public/myfile.html",
-    destination: "/pages/api/myfile.js",
+    source: "/public/index.html",
+    destination: "/pages/myfile.js",
   },
 ],
 });
